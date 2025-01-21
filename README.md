@@ -17,6 +17,8 @@ In this project, we are using a supervised learning approach where we provide th
 
 Throughout the project, I have included my own **notes and annotations** to explain various parts of the code and provide insights into how the model works. These notes cover topics like supervised learning, layers in neural networks, loss functions, optimizers, and more. The comments also include areas I plan to research further, making this project a living document for continuous learning.
 
+![image](https://github.com/user-attachments/assets/891afdf5-c7ef-40f9-8a72-f13c93a22b6e)
+
 ## Dependencies
 
 Before running the code, make sure you have the following dependencies installed:
@@ -28,4 +30,5 @@ Before running the code, make sure you have the following dependencies installed
 You can install the required libraries using the following commands:
 
 pip install tensorflow numpy matplotlib
+
 
