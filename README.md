@@ -4,7 +4,7 @@ This project uses TensorFlow to build and train a supervised machine learning mo
 
 ## Project Overview
 
-In this project, we are using a supervised learning approach where we provide the model with input-output pairs (Celsius and Fahrenheit temperatures). The model learns the relationship between the two and creates a simple algorithm for conversion. The goal is to predict Fahrenheit values based on input Celsius values using a trained neural network.
+In this project, I'm are using a supervised learning approach where we provide the model with input-output pairs (Celsius and Fahrenheit temperatures). The model learns the relationship between the two and creates a simple algorithm for conversion. The goal is to predict Fahrenheit values based on input Celsius values using a trained neural network.
 
 ### Key Features:
 - A neural network with **one layer** and **one neuron**.
