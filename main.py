@@ -68,9 +68,14 @@ plot.xlabel("Epoch")
 plot.ylabel("Loss Magnitude")
 plot.plot(history.history["loss"])
 
-# MODEL PREDICTIONS
-print(model.predict(np.array([100.0]))) # Now that the model is trained, the predict function can be used to make predictions
-
-
 # THE MODEL'S WEIGHTS (research what these are b/c i'm confused)
 print(f'These are the layer weights: {layer1.get_weights()}')
+
+# MODEL PREDICTIONS
+# Now that the model is trained, the predict function can be used to make predictions
+
+prediction = input("Enter a celsius value: (type 'exit' to stop) ")
+
+while prediction != "exit":
+  print(model.predict(np.array([float(prediction)])))
+  prediction = input("Enter a celsius value: ")
