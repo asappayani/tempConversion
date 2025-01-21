@@ -78,4 +78,4 @@ prediction = input("Enter a celsius value: (type 'exit' to stop) ")
 
 while prediction != "exit":
   print(model.predict(np.array([float(prediction)])))
-  prediction = input("Enter a celsius value: ")
+  prediction = input("Enter a celsius value: (type 'exit' to stop)")
